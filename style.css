@@ -1,0 +1,86 @@
+/* :root{
+    --Dark-blue: rgb(190, 87, 87);
+    --blue-light: rgb(49, 49, 230);
+    --light-green: rgb(165, 189, 165);
+    --white-white: rgb(206, 206, 206);
+} */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+header .navs{
+    display: flex;
+    gap: 2rem;
+}
+header .user{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.login {
+    color: black;
+}
+.user .signup{
+    background-color: orange;
+    /* color: black; */
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.user .signup:hover{
+    background-color: blue;
+    color: white;
+}
+main{
+    display: flex;
+    background-color: white;    
+    height: 90vh;
+}
+main .left{
+    width: 50%;
+    margin: 2rem;
+    padding: 5rem ;
+}
+.left h1{
+    color: rgba(68, 195, 235, 0.80);
+        font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+.left p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.8px;
+
+}
+.left button{
+    width: 193px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E87A14;
+}
+main .right{
+    display: flex;    
+    width: 50%;
+}
