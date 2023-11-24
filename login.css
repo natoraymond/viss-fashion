@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     /* background-color: red;  */
-    background-image: linear-gradient(to left,brown, brown, yellow, Tomato);
+    background-image: linear-gradient(to left,brown, orange);
     align-items: center;
     height: 100vh;
 }
@@ -18,11 +18,11 @@ main .left{
 
     text-align: center;
     padding: 2rem 0rem 2rem 2rem;
-    width: 50%;
+    width: 100%;
 }
 
 main .right{
-    width: 50%;
+    width: 100%;
 }
 main{
     display: flex;
@@ -40,14 +40,20 @@ main{
 button{
     display: flex;
     border-radius: 20px;
-    width: 300px;
+    width: 320px;
     margin: 0.5rem;
 }
-.button h3{
+button h3{
     display: flex;
+    gap: 5rem;
+    text-align: center;
 }
-
+button img{
+    width: 50px;
+    border-radius: 10%;
+}
 span{
     display: flex;
-    align-items: center;
+    gap: 0.1rem;
 }
+
